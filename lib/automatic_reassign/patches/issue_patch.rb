@@ -21,8 +21,7 @@ module  AutomaticReassign
   module InstanceMethods
     def update_assign
 
-      if self.status.is_closed? or self.status_id == 14 or self.status_id == 3 or self.status_id == 5 or self.status_id == 11 # fermé, closed , resolu / resolu et testé
-            self.assigned_to_id = self.author_id
+      self.assigned_to_id = self.author_id if self.status.is_closed? 
       end
     end
   end
