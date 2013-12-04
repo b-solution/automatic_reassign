@@ -16,9 +16,9 @@ Supported Redmine, Ruby and Rails versions.
 
 Plugin aims to support and is tested under the following Redmine implementations:
 
-Redmine 2.3.1
-Redmine 2.3.2
-Redmine 2.3.3
+Redmine 2.x
+
+
 Plugin aims to support and is tested under the following Ruby implementations:
 
 Ruby 1.9.2
